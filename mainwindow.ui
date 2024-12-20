@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>789</width>
+    <height>713</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="addFilm">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>580</y>
+      <width>161</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Add Film</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="viewSearchButton">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>580</y>
+      <width>161</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>View/Search</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="addTVShow">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>580</y>
+      <width>161</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Add TV Episode</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="aboutButton">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>580</y>
+      <width>161</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>About</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>15</y>
+      <width>741</width>
+      <height>541</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="resource.qrc">:/theater.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionFilm">
+   <property name="text">
+    <string>Film</string>
+   </property>
+  </action>
+  <action name="actionTV_Show">
+   <property name="text">
+    <string>TV Show</string>
+   </property>
+  </action>
+  <action name="actionVideo_Game">
+   <property name="text">
+    <string>Video Game</string>
+   </property>
+  </action>
+  <action name="actionBook">
+   <property name="text">
+    <string>Book</string>
+   </property>
+  </action>
+  <action name="actionFilm_2">
+   <property name="text">
+    <string>Film</string>
+   </property>
+  </action>
+  <action name="actionTV_Show_2">
+   <property name="text">
+    <string>TV Show</string>
+   </property>
+  </action>
+  <action name="actionVideo_Game_2">
+   <property name="text">
+    <string>Video Game</string>
+   </property>
+  </action>
+  <action name="actionBook_2">
+   <property name="text">
+    <string>Book</string>
+   </property>
+  </action>
+  <action name="actionFilm_3">
+   <property name="text">
+    <string>Film</string>
+   </property>
+  </action>
+  <action name="actionTV_Show_3">
+   <property name="text">
+    <string>TV Show</string>
+   </property>
+  </action>
+  <action name="actionVideo_Game_3">
+   <property name="text">
+    <string>Video Game</string>
+   </property>
+  </action>
+  <action name="actionBook_3">
+   <property name="text">
+    <string>Book</string>
+   </property>
+  </action>
+  <action name="actionFilm_4">
+   <property name="text">
+    <string>Film</string>
+   </property>
+  </action>
+  <action name="actionTV_Show_4">
+   <property name="text">
+    <string>TV Show</string>
+   </property>
+  </action>
+  <action name="actionVideo_Game_4">
+   <property name="text">
+    <string>Video Game</string>
+   </property>
+  </action>
+  <action name="actionBook_4">
+   <property name="text">
+    <string>Book</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="resource.qrc"/>
+ </resources>
+ <connections/>
+ <slots>
+  <signal>newFilmWindow()</signal>
+  <signal>newEntry()</signal>
+ </slots>
+</ui>

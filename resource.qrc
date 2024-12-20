@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/images"/>
+    <qresource prefix="/">
+        <file>SUG-221.png</file>
+        <file>theater.png</file>
+        <file>icon.jpeg</file>
+        <file>icon.png</file>
+        <file>icon.icns</file>
+    </qresource>
+    <qresource prefix="/icons">
+        <file>icon.png</file>
+        <file>icon.icns</file>
+    </qresource>
+</RCC>
