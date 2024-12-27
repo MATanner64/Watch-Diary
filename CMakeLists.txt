@@ -48,9 +48,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         about.h about.cpp about.ui
 
         icon.icns
-        headers/about.h headers/mainwindow.h headers/newentry.h headers/newfilm.h headers/newtvshow.h headers/newvideogame.h headers/viewdatabase.h
-        headers/viewdatabase.h headers/newvideogame.h headers/newtvshow.h headers/newfilm.h headers/newentry.h headers/mainwindow.h headers/about.h
-        headers/about.h headers/mainwindow.h headers/newentry.h headers/newfilm.h headers/newtvshow.h headers/newvideogame.h headers/viewdatabase.h
+
 
 
 
