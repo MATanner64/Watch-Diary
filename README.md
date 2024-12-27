@@ -40,5 +40,5 @@
 
 ## Demo
 
-🎥 Video Demonstration
+### 🎥 [Video Demonstration](https://youtu.be/bgpUe4TAv6k)
 This demo showcases the application’s key functionalities. (No audio track is included.)
