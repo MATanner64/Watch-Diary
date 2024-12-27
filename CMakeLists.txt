@@ -44,7 +44,6 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         resource.qrc
         newentry.h newentry.cpp newentry.ui
         newtvshow.h newtvshow.cpp newtvshow.ui
-        SUG-221.png
         viewdatabase.h viewdatabase.cpp viewdatabase.ui
         about.h about.cpp about.ui
 
